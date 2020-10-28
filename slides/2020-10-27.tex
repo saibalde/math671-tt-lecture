@@ -36,7 +36,7 @@
 \usetikzlibrary{arrows.meta}
 
 \title{Tensor Train Decomposition}
-\author{Saibal De}
+\author{Saibal De \\ \texttt{saibalde@umich.edu}}
 \date{October 27, 2020}
 
 \begin{document}
@@ -542,6 +542,23 @@
     \State {$r_d = 1$}
     \State {$\Tns{Y}_d = \texttt{reshape}(\Mat{C}, [r_{d - 1}, n_d, r_d])$}
   \end{algorithmic}
+\end{frame}
+
+\section{Miscellaneous}
+
+\begin{frame}{Code}
+  \begin{itemize}
+    \item
+      Tensor Train codes by I.\ V.\ Oseledets:
+      \begin{itemize}
+        \item
+          MATLAB: \texttt{https://github.com/oseledets/TT-Toolbox}
+        \item
+          Python: \texttt{https://github.com/oseledets/ttpy}
+      \end{itemize}
+    \item
+      Class demo: \texttt{https://github.com/saibalde/math671-tt-lecture}
+  \end{itemize}
 \end{frame}
 
 \end{document}
